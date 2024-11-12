@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
           if (currentPercentage < percentage) {
               currentPercentage++;
               percentageText.textContent = `${currentPercentage}%`;
-              progressCircle.style.background = `conic-gradient(#678e1d ${currentPercentage * 3.6}deg, #333 ${currentPercentage * 3.6}deg)`;
+              progressCircle.style.background = `conic-gradient(#63D1F6 ${currentPercentage * 3.6}deg, #333 ${currentPercentage * 3.6}deg)`;
           } else {
               clearInterval(interval);
           }
