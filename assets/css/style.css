@@ -500,12 +500,13 @@ body.nav-active { overflow: hidden; }
     visibility: collapse;
   }
   #home {
-    padding-block-start: 60px; /* Reduce the top padding for smaller screens */
+    padding-block-start: 30px; /* Reduce the top padding for smaller screens */
   }
   .section-text{
     padding-left: 15px;
   }
 }
+
 .home {
   padding-block-start: 105px;
   margin-bottom: 10vh;
@@ -535,8 +536,8 @@ body.nav-active { overflow: hidden; }
 
 .home-banner {
   flex: 1 1 45%; /* Image takes 45% width */
-  max-width: 500px; /* Prevents image from stretching too large */
-  height: 500px; /* Set a height for the image */
+  max-width: 550px; /* Prevents image from stretching too large */
+  height: 550px; /* Set a height for the image */
   border-radius: var(--blob-radius);
   overflow: hidden;
   animation: blobAnim 30s linear infinite;
@@ -581,7 +582,8 @@ body.nav-active { overflow: hidden; }
   }
 
   .home-banner {
-    height: 300px; /* Adjust image height on smaller screens */
+    height: 350px; /* Adjust image height on smaller screens */
+    max-width: 550px; /* Prevents image from stretching too large */
   }
 
   .home-text {
