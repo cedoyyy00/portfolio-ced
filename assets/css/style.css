@@ -238,7 +238,8 @@ body.nav-active { overflow: hidden; }
   z-index: 1;
 }
 
-/* Style the paragraph text */
+/* Style the paragraph text on projects*/
+
 .card-text {
   color: #6c757d; /* Medium gray for paragraph text */
   font-size: 16px;
