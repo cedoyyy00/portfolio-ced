@@ -93,8 +93,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
-
 /** SLIDER
  */
 

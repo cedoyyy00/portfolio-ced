@@ -238,6 +238,16 @@ body.nav-active { overflow: hidden; }
   z-index: 1;
 }
 
+/* Style the paragraph text */
+.card-text {
+  color: #6c757d; /* Medium gray for paragraph text */
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 auto; /* Center-aligns the paragraph itself */
+  max-width: 550px; /* Constrains paragraph width for readability */
+}
+
+
 .slider {
   --slider-items: 1;
   --item-gap: 12px;
@@ -330,10 +340,6 @@ body.nav-active { overflow: hidden; }
     opacity: 1; /* You can keep it visible or modify based on your needs */
   }
 }
-
-
-
-
 
 /*-----------------------------------*\
   #PRELOADER
