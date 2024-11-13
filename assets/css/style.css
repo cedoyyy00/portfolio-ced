@@ -507,7 +507,8 @@ body.nav-active { overflow: hidden; }
   }
 }
 .home {
-  padding-block-start:50px;
+  padding-block-start: 105px;
+  margin-bottom: 10vh;
 }
 
 .home-container {
